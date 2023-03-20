@@ -1,27 +1,36 @@
-package com.PortafolioWeb.mgb.Entity;
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.PortafolioWeb.mgb.Dto;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.validation.constraints.NotBlank;
 
-@Entity
-public class Vehiculo {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+/**
+ *
+ * @author Feer Dinamarca
+ */
+public class dtoVehiculo {
+    @NotBlank
     private Long id;
+    @NotBlank
     private String nombreE;
+    @NotBlank
     private String numeroC;
+    @NotBlank
     private String numeroP;
+    @NotBlank
     private String ingreso;
+    @NotBlank
     private String vidaU;
+    @NotBlank
     private String finalizacion;
 
-    public Vehiculo() {
+    public dtoVehiculo() {
     }
 
-    public Vehiculo(String nombreE, String numeroC, String numeroP, String ingreso, String vidaU, String finalizacion) {
+    public dtoVehiculo(Long id, String nombreE, String numeroC, String numeroP, String ingreso, String vidaU, String finalizacion) {
+        this.id = id;
         this.nombreE = nombreE;
         this.numeroC = numeroC;
         this.numeroP = numeroP;
@@ -45,6 +54,8 @@ public class Vehiculo {
     public void setNombreE(String nombreE) {
         this.nombreE = nombreE;
     }
+
+    
 
     public String getNumeroC() {
         return numeroC;
@@ -85,5 +96,6 @@ public class Vehiculo {
     public void setFinalizacion(String finalizacion) {
         this.finalizacion = finalizacion;
     }
-
+    
+    
 }

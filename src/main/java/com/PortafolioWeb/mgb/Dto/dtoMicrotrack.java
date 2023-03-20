@@ -1,23 +1,30 @@
-package com.PortafolioWeb.mgb.Entity;
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.PortafolioWeb.mgb.Dto;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.validation.constraints.NotBlank;
 
-@Entity
-public class Microtrack {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+/**
+ *
+ * @author Feer Dinamarca
+ */
+public class dtoMicrotrack {
+    @NotBlank
     private int id;
+    @NotBlank
     private String nombreE;
+    @NotBlank
     private String serialM;
+    @NotBlank
     private String serialLL;
 
-    public Microtrack() {
+    public dtoMicrotrack() {
     }
 
-    public Microtrack(String nombreE,String serialM, String serialLL) {
+    public dtoMicrotrack(int id,String nombreE, String serialM, String serialLL) {
+        this.id = id;
         this.nombreE = nombreE;
         this.serialM = serialM;
         this.serialLL = serialLL;
@@ -31,8 +38,6 @@ public class Microtrack {
         this.nombreE = nombreE;
     }
     
-    
-
     public int getId() {
         return id;
     }
