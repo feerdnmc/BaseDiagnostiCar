@@ -3,7 +3,6 @@ package com.PortafolioWeb.mgb.Controller;
 
 import com.PortafolioWeb.mgb.Dto.dtoMicrotrack;
 import com.PortafolioWeb.mgb.Entity.Microtrack;
-import com.PortafolioWeb.mgb.Entity.Vehiculo;
 import com.PortafolioWeb.mgb.S.Controller.Mensaje;
 import com.PortafolioWeb.mgb.Service.SMicrotrack;
 import java.util.List;
@@ -12,6 +11,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -22,8 +22,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RequestMapping("/Microtrack")
-
 @RestController
+@CrossOrigin(origins = "https://localhost:4200")
+
 public class MicrotrackController {
 
     @Autowired
