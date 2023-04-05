@@ -2,9 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.PortafolioWeb.mgb.S.Entity;
+package com.PortafolioWeb.mgb.Security.Entity;
 
-import com.PortafolioWeb.mgb.S.Enums.RolNombre;
+import com.PortafolioWeb.mgb.Security.Enums.RolNombre;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;

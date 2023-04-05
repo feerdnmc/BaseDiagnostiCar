@@ -2,10 +2,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.PortafolioWeb.mgb.S.Service;
+package com.PortafolioWeb.mgb.Security.Service;
 
-import com.PortafolioWeb.mgb.S.Entity.Usuario;
-import com.PortafolioWeb.mgb.S.Entity.UsuarioPrincipal;
+import com.PortafolioWeb.mgb.Security.Entity.Usuario;
+import com.PortafolioWeb.mgb.Security.Entity.UsuarioPrincipal;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

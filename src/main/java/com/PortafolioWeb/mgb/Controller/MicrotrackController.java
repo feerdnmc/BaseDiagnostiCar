@@ -3,7 +3,7 @@ package com.PortafolioWeb.mgb.Controller;
 
 import com.PortafolioWeb.mgb.Dto.dtoMicrotrack;
 import com.PortafolioWeb.mgb.Entity.Microtrack;
-import com.PortafolioWeb.mgb.S.Controller.Mensaje;
+import com.PortafolioWeb.mgb.Security.Controller.Mensaje;
 import com.PortafolioWeb.mgb.Service.SMicrotrack;
 import java.util.List;
 import java.util.Optional;

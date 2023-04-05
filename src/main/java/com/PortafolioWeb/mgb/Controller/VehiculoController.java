@@ -6,7 +6,7 @@ package com.PortafolioWeb.mgb.Controller;
 
 import com.PortafolioWeb.mgb.Dto.dtoVehiculo;
 import com.PortafolioWeb.mgb.Entity.Vehiculo;
-import com.PortafolioWeb.mgb.S.Controller.Mensaje;
+import com.PortafolioWeb.mgb.Security.Controller.Mensaje;
 import com.PortafolioWeb.mgb.Service.SVehiculo;
 import java.util.List;
 import org.apache.commons.lang3.StringUtils;

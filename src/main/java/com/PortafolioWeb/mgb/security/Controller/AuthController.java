@@ -2,14 +2,14 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.PortafolioWeb.mgb.S.Controller;
+package com.PortafolioWeb.mgb.Security.Controller;
 
-import com.PortafolioWeb.mgb.S.Entity.Rol;
-import com.PortafolioWeb.mgb.S.Entity.Usuario;
-import com.PortafolioWeb.mgb.S.Enums.RolNombre;
-import com.PortafolioWeb.mgb.S.Jwt.JwtProvider;
-import com.PortafolioWeb.mgb.S.Service.RolService;
-import com.PortafolioWeb.mgb.S.Service.UsuarioService;
+import com.PortafolioWeb.mgb.Security.Entity.Rol;
+import com.PortafolioWeb.mgb.Security.Entity.Usuario;
+import com.PortafolioWeb.mgb.Security.Enums.RolNombre;
+import com.PortafolioWeb.mgb.Security.Jwt.JwtProvider;
+import com.PortafolioWeb.mgb.Security.Service.RolService;
+import com.PortafolioWeb.mgb.Security.Service.UsuarioService;
 import com.PortafolioWeb.mgb.Security.dto.LoginUsuario;
 import com.PortafolioWeb.mgb.Security.dto.NuevoUsuario;
 import com.PortafolioWeb.mgb.security.dto.JwtDto;

@@ -2,9 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.PortafolioWeb.mgb.S.Jwt;
+package com.PortafolioWeb.mgb.Security.Jwt;
 
-import com.PortafolioWeb.mgb.S.Service.UserDetailsImpl;
+import com.PortafolioWeb.mgb.Security.Service.UserDetailsImpl;
 import java.io.IOException;
 import javax.servlet.FilterChain;
 import javax.servlet.ServletException;

@@ -2,7 +2,7 @@ package com.PortafolioWeb.mgb.Controller;
 
 import org.apache.commons.lang3.StringUtils;
 import com.PortafolioWeb.mgb.Entity.Persona;
-import com.PortafolioWeb.mgb.S.Controller.Mensaje;
+import com.PortafolioWeb.mgb.Security.Controller.Mensaje;
 import com.PortafolioWeb.mgb.Service.IPersonaService;
 import com.PortafolioWeb.mgb.Security.dto.dtoPersona;
 import java.util.List;

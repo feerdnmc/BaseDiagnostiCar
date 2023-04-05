@@ -2,11 +2,11 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.PortafolioWeb.mgb.S.Service;
+package com.PortafolioWeb.mgb.Security.Service;
 
-import com.PortafolioWeb.mgb.S.Entity.Rol;
-import com.PortafolioWeb.mgb.S.Enums.RolNombre;
-import com.PortafolioWeb.mgb.S.Repository.iRolRepository;
+import com.PortafolioWeb.mgb.Security.Entity.Rol;
+import com.PortafolioWeb.mgb.Security.Enums.RolNombre;
+import com.PortafolioWeb.mgb.Security.Repository.iRolRepository;
 import java.util.Optional;
 import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;

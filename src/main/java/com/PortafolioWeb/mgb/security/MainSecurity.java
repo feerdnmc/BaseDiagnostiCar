@@ -4,9 +4,9 @@
  */
 package com.PortafolioWeb.mgb.security;
 
-import com.PortafolioWeb.mgb.S.Jwt.JwtEntryPoint;
-import com.PortafolioWeb.mgb.S.Jwt.JwtTokenFilter;
-import com.PortafolioWeb.mgb.S.Service.UserDetailsImpl;
+import com.PortafolioWeb.mgb.Security.Jwt.JwtEntryPoint;
+import com.PortafolioWeb.mgb.Security.Jwt.JwtTokenFilter;
+import com.PortafolioWeb.mgb.Security.Service.UserDetailsImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
